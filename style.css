@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+  
+.topnav a {
+    float: left;
+    color: #fff;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #fff;
+    color: #c90909;
+}
+
+
+.topnav a.active {
+    background-color: #c90909;
+    color: white;
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    line-height: 1.6;
+    color: #333; 
+    background: #eeeeee; 
+    font-size: 21px;
+}
+
+h1, h2, h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+}
+
+h1 {
+    font-size: 120px;
+    line-height: .8;
+    color: #c90909;
+}
+
+h2 {
+    font-size: 60px;
+    line-height: 1;
+}
+
+a {
+    color: #c90909;
+}
+
+a:hover, a:focus {
+    color: #333;
+}
+
+header, section {
+    padding: 10rem 0;
+}
+
+.hero { 
+    text-align: left;
+    padding: 2rem 0 10rem;
+    background-image: url("img/japan-feature.jpg");
+    background-size: cover;
+}
+
+.hero, h2 {
+    color: #eeeeee;
+}
+
+.container {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.columns {
+    display: flex;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #eeeeee;
+    text-align: center;
+  }
